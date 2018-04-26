@@ -1,2 +1,2 @@
 # 4.Arc-Toolbar
-Builds a small crime analysis Python toolbar, based on work by the Manchester police.
+Manchester Police found that the area surrounding a burglary will then become at increased risk of burglary for a fixed amount of time. The code in this repository will create a buffer around the locations of burglaries and list the houses at increased risk. The highest risk will be where the most buffers overlap. The addin displays the houses as a chloropleth map, coloured by risk.
