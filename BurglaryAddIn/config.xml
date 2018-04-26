@@ -1,0 +1,12 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>Crime toolbar</Name><AddInID>{108cdac8-9adb-441a-91c7-5e3ce587d9af}</AddInID><Description>New Addin</Description><Version>0.1</Version><Image /><Author>SJMurray</Author><Company>Untitled</Company><Date>02/08/2018</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="BurglaryAddIn_addin.py" namespace="BurglaryAddIn_addin"><ArcMap>
+    <Commands>
+        <Button caption="Risk calculation" category="Crime toolbar" class="RiskButton" id="BurglaryAddIn_addin.RiskButton" image="" message="" tip=""><Help heading="" /></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="Burglary tools" category="Crime toolbar" id="BurglaryAddIn_addin.BurglaryToolbar" showInitially="true"><Items><Button refID="BurglaryAddIn_addin.RiskButton" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
